@@ -6,29 +6,7 @@ What your OpenCode sessions actually cost, read straight from the local database
 
 The usage panel shows the session you are in right now. It forgets everything when you close it. `opencode.db` does not — every session, every model, every turn, since you installed it.
 
-```text
-ocusage  ·  opencode token usage
-
-  45 sessions  ·  3574 messages  ·  8 projects
-
-  input            13.6 M
-  output            1.3 M
-  reasoning         2.0 M
-  cache read      355.3 M   95% of everything
-  cache write     242.5 K
-  total           372.5 M
-  cost              $0.00
-
-  biggest session  73.0 M  (homies, 660 messages)
-  most turns       699  (NG, 70.0 M tokens)
-
-  by project
-  TOTAL     IN       OUT      CACHE    SHARE  SESS  PROJECT
-  ------------------------------------------------------------------------------------------------
-  216.1 M   8.6 M    699.2 K  205.9 M  95%    15    normal guy
-  82.4 M    1.8 M    224.2 K  79.9 M   97%    2     prompt 2
-  46.4 M    2.2 M    186.0 K  43.6 M   94%    16    tester
-```
+<img src="docs/demo.png" width="820" alt="ocusage printing token totals, the 95% cache share, and usage per project">
 
 ## What it tells you that the panel does not
 
