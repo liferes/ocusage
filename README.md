@@ -8,6 +8,8 @@ The usage panel shows the session you are in right now. It forgets everything wh
 
 <img src="docs/demo.png" width="820" alt="ocusage printing token totals, the 95% cache share, and usage per project">
 
+<sub>Project and session names are replaced with numbers. The token counts are real.</sub>
+
 ## What it tells you that the panel does not
 
 - **Which project eats your quota.** One repo can be 60% of everything you have ever spent.
